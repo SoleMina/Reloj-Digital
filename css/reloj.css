@@ -1,0 +1,36 @@
+.clock {
+    width: 300px;
+    text-align: center;
+    border:1px solid #ccc;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10%;
+        }
+.contentclock {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+body {
+    background-image: url(../fotos/pack.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    color: #fff;
+    height: 700px;
+}
+button {
+    background-color: pink;
+    color: purple !important;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    font-weight: bold !important;
+    border: 2px solid purple;
+}
