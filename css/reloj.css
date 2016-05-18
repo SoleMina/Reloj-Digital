@@ -34,3 +34,7 @@ button {
     font-weight: bold !important;
     border: 2px solid purple;
 }
+.day {
+    font-weight: bold;
+    font-size: 20px;
+}
