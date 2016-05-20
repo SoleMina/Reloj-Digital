@@ -7,7 +7,33 @@
     <link href="css/reloj.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
-<div class="contentclock">
+<div class="contentclock" id="contentclock">
+    <div class="ventana" id="ventana">
+        <div class="vt">
+        <div class="cerrar"><a href="javascript:closeVentana();">Cerrar x</a></div>
+        <div class="marcador">
+            <input id="tachado" class="check one" type="checkbox" value="checkbox"  onclick="tachar()">Chicago</input>
+            <br>
+            <input id="tachado" class="check two" type="checkbox" value="checkbox"  onclick="tachar()">Sao Paulo</input>
+            <br>
+            <input id="tachado" class="check three" type="checkbox" value="checkbox"  onclick="tachar()">Santiago</input>
+            <br>
+            <input id="tachado" class="check four" type="checkbox" value="checkbox"  onclick="tachar(this)">México D.F</input>
+            <br>
+            <input id="tachado" class="check five" type="checkbox" value="checkbox"  onclick="tachar()">Caracas</input>
+            <br>
+            <input id="tachado" class="check six" type="checkbox" value="checkbox"  onclick="tachar()">Brasilia</input>
+            <br>
+            <input id="tachado" class="check seven" type="checkbox" value="checkbox"  onclick="tachar()">Quito</input>
+            <br>
+            <input id="tachado" class="check eight" type="checkbox" value="checkbox"  onclick="tachar()">Guayaquil</input>
+            <br>
+            <input id="tachado" class="check nine" type="checkbox" value="checkbox"  onclick="tachar()">Santa Marta</input>
+            <br>
+            <input id="tachado" class="check ten" type="checkbox" value="checkbox"  onclick="tachar()">Bogota</input>
+        </div>
+        </div>
+    </div>
 <h1>Reloj Digital</h1>
 <p>Perú</p>
     <div class="clock" id="clock">
@@ -16,13 +42,12 @@
         <div class="day"></div>
     </div>
     <p class="day" id="day"></p>
-    <button>Click here</button>
+    <button><a href="javascript:openVentana();">Click here</a></button>
+    <div class="new" id="new"></div>
+    <div class="special"></div>
 </div>
     
     <script type="text/javascript" src="js/reloj.js"></script>
 </html>
-
-        
-
 
         
